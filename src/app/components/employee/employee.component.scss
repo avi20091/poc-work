@@ -1,0 +1,82 @@
+table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #6ebe49;
+  }
+  ::ng-deep .mat-progress-spinner circle {
+    fill: transparent;
+    transform-origin: center;
+    transition: stroke-dashoffset 225ms linear !important;
+}
+::ng-deep .mat-progress-spinner.mat-progress-spinner-indeterminate-animation[mode=indeterminate] circle {
+  transition-property: stroke !important;
+  animation-duration: 4s !important;
+  animation-timing-function: cubic-bezier(.35,0,.25,1) !important;
+  animation-iteration-count: infinite !important;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+@mixin size($width, $height: null) {
+	width: $width;
+	height: if($height==null, $width, $height);
+}
+
+.theme-selectors-container{
+	width: 190px;
+	margin: 0 8px;
+}
+
+button.theme-selector {
+	@include size(80px);
+}
+
+div.theme-primary {
+	@include size(70px);
+	border-radius: 50%;
+}
+
+div.theme-accent {
+	@include size(25px);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.theme-warn {
+	@include size(15px);
+	position: absolute;
+	bottom: 7%;
+	left: 20%;
+	transform: rotate(45deg);
+}
+
+.theme-check {
+	color: white;
+	font-size: 3.2em;
+}
+.theme-selector-is-dark {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

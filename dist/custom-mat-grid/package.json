@@ -1,0 +1,21 @@
+{
+  "name": "custom-mat-grid",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/custom-mat-grid.umd.js",
+  "module": "fesm5/custom-mat-grid.js",
+  "es2015": "fesm2015/custom-mat-grid.js",
+  "esm5": "esm5/custom-mat-grid.js",
+  "esm2015": "esm2015/custom-mat-grid.js",
+  "fesm5": "fesm5/custom-mat-grid.js",
+  "fesm2015": "fesm2015/custom-mat-grid.js",
+  "typings": "custom-mat-grid.d.ts",
+  "metadata": "custom-mat-grid.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
