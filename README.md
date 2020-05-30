@@ -1,3 +1,23 @@
+## How to Run A project
+
+## Step-1
+Install node module by using following command
+npm install
+
+## Step-2
+Install Json Server by using following command
+npm install json-server
+
+## Step-3
+Run Json sever by using following command
+json-server --watch db.json
+
+## Step-4
+Run Angular apllication on new terminal by using following command
+ng serve
+
+
+
 # One
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
@@ -25,3 +45,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+
+
